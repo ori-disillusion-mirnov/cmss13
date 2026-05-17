@@ -895,7 +895,7 @@
 	color = "#d3d3d3"
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -927,7 +927,7 @@
 /area/lv759/outdoors/colony_streets/east_central_street)
 "acz" = (
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -1345,7 +1345,7 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/east_caves)
 "adE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "92"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -3542,10 +3542,10 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/north_west_caves)
 "ajp" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing7";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_right_wing{
+	icon_state = "zwing7"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "ajq" = (
 /obj/structure/prop/hybrisa/cavedecor/stalagmite3{
@@ -6081,6 +6081,13 @@
 	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/lv759/indoors/power_plant/gas_generators)
+"apz" = (
+/obj/structure/machinery/door/airlock/dropship_hatch/two{
+	name = "\improper WY-LWI Horizon Runner HR-150 airlock";
+	dir = 8
+	},
+/turf/open/floor/corsat/officetiles,
+/area/lv759/indoors/spaceport/horizon_runner)
 "apA" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -6895,7 +6902,7 @@
 /obj/item/clothing/accessory/patch/royal_marines,
 /obj/item/clothing/accessory/patch/forecon,
 /obj/item/clothing/accessory/patch/falcon,
-/obj/item/clothing/accessory/patch,
+/obj/item/clothing/accessory/patch/uscmpatch,
 /obj/item/storage/box/saltshaker,
 /obj/item/reagent_container/food/condiment/saltshaker,
 /obj/item/reagent_container/food/condiment/saltshaker{
@@ -9366,7 +9373,7 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "aFo" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/hybrisa/street/sidewalk/northwest,
@@ -10446,7 +10453,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/pizzaria)
 "aNL" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /obj/effect/decal/medical_decals{
@@ -11200,7 +11207,7 @@
 	pixel_y = 32
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -11277,10 +11284,10 @@
 /turf/open/floor/almayer/plate,
 /area/lv759/indoors/weyyu_office/pressroom)
 "aTJ" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = 6
 	},
 /turf/open/hybrisa/street/sidewalk/north,
@@ -12879,12 +12886,6 @@
 	},
 /turf/open/floor/prison/whitegreenfull,
 /area/lv759/indoors/hospital/central_hallway)
-"bfZ" = (
-/turf/closed/shuttle{
-	dir = 1;
-	icon_state = "pwall"
-	},
-/area/space)
 "bga" = (
 /obj/effect/decal/hybrisa/dirt,
 /obj/item/hybrisa/misc/trash_bag_full_prop{
@@ -13203,7 +13204,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/wy_research_complex/vehicledeploymentbay)
 "bjm" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "25"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -13326,9 +13327,8 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "bka" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "27";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "27"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "bkd" = (
@@ -15949,9 +15949,11 @@
 /turf/open/hybrisa/street/sidewalk/northwest,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "bEz" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingright,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_right_wing{
+	icon_state = "zwing5"
+	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "bEC" = (
 /obj/structure/platform_decoration/metal/hybrisa/metalplatformdeco1/west,
 /turf/open/hybrisa/street/cement1,
@@ -17098,10 +17100,10 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "bNS" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -12
 	},
 /turf/open/hybrisa/street/sidewalk/east,
@@ -19240,7 +19242,8 @@
 	},
 /obj/effect/decal/hybrisa/dirt,
 /obj/structure/machinery/door/airlock/dropship_hatch/two{
-	name = "\improper WY-LWI StarGlider SG-200 airlock"
+	name = "\improper WY-LWI StarGlider SG-200 airlock";
+	dir = 8
 	},
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/spaceport/starglider)
@@ -21112,12 +21115,12 @@
 /turf/open/floor/hybrisa/metal/zbrownfloor1/northeast,
 /area/lv759/indoors/meridian/meridian_showroom)
 "cqH" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_left_wing{
 	icon_state = "zwing3";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "cqL" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -21541,7 +21544,8 @@
 /turf/open/floor/hybrisa/metal/zbrownfloor1/west,
 /area/lv759/indoors/meridian/meridian_factory)
 "cuc" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider,
+/obj/structure/shuttle/part/dropship_wy/transparent/left_outer_bottom_wing,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "cuj" = (
 /obj/item/reagent_container/food/drinks/coffee/cuppa_joes{
@@ -21863,9 +21867,8 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "cwi" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "6"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/right_outer_bottom_wing,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "cwj" = (
 /obj/structure/barricade/handrail{
@@ -22217,7 +22220,7 @@
 	pixel_y = 3
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -22472,7 +22475,7 @@
 /turf/open/hybrisa/street/cement1,
 /area/lv759/outdoors/colony_streets/central_streets)
 "cBc" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = 12
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -22568,7 +22571,7 @@
 /area/lv759/outdoors/colony_streets/central_streets)
 "cBG" = (
 /turf/closed/wall/hybrisa/spaceport/unmeltable,
-/area/space)
+/area/sky/level4)
 "cBH" = (
 /obj/structure/machinery/light/small/blue{
 	dir = 4
@@ -23237,10 +23240,10 @@
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/horizon_runner)
 "cGH" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = 12
 	},
 /turf/open/hybrisa/street/sidewalk/west,
@@ -26796,9 +26799,8 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/spaceport/cargo)
 "dfl" = (
-/turf/closed/shuttle/ert{
-	icon_state = "rightengine_2";
-	opacity = 0
+/turf/closed/shuttle/ert/transparent{
+	icon_state = "rightengine_2"
 	},
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "dfn" = (
@@ -27469,7 +27471,7 @@
 /turf/open/floor/almayer/orange2/southwest,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_cargo)
 "djS" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -27683,7 +27685,7 @@
 /turf/open/floor/strata,
 /area/lv759/indoors/colonial_marshals/hallway_north_locker)
 "dlL" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "47"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -30720,7 +30722,7 @@
 /turf/open/floor/plating/plating_catwalk/aicore,
 /area/lv759/indoors/hotel/hotel_hallway)
 "dKy" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/structure/machinery/floodlight/landing,
@@ -31031,11 +31033,8 @@
 /turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/lv759/indoors/colonial_marshals/press_room)
 "dNo" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "110";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "110"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "dNw" = (
@@ -33436,7 +33435,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_street)
 "efT" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "83"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -34190,7 +34189,7 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/lv759/indoors/caves/south_east_caves)
 "elL" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "67"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -34610,9 +34609,8 @@
 /turf/open/floor/mech_bay_recharge_floor,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "eoZ" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "4"
-	},
+/obj/structure/shuttle/part/dropship_wy/right_outer_wing_connector,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "epc" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -35168,7 +35166,7 @@
 /turf/open/floor/prison/red/northeast,
 /area/lv759/indoors/colonial_marshals/hallway_south)
 "eti" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
 	icon_state = "rightengine_3"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -35216,7 +35214,7 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "etH" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = 12;
 	pixel_y = -6
 	},
@@ -35390,7 +35388,7 @@
 /area/lv759/indoors/meridian/meridian_office)
 "euJ" = (
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -35450,7 +35448,7 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/power_plant/equipment_east)
 "evk" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -36335,7 +36333,7 @@
 /turf/open/floor/hybrisa/metal/grated/north,
 /area/lv759/outdoors/colony_streets/central_streets)
 "eCO" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/structure/machinery/floodlight/landing,
@@ -36721,15 +36719,6 @@
 	},
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/power_plant/workers_canteen_kitchen)
-"eGr" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	dir = 8;
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "110";
-	name = "\improper WY-LWI StarGlider SG-200"
-	},
-/area/lv759/indoors/spaceport/starglider)
 "eGs" = (
 /obj/item/tool/warning_cone{
 	pixel_y = 26;
@@ -36938,7 +36927,7 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/landing_zone_2)
 "eIt" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -38656,10 +38645,8 @@
 /turf/open/floor/almayer/blackfull/west,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "eVc" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "17";
-	opacity = 0
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_exhaust,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "eVi" = (
 /obj/structure/bed/hybrisa/bunkbed3{
@@ -38960,7 +38947,7 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_street)
 "eYd" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "18"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -39184,7 +39171,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/north_street)
 "eZB" = (
-/obj/structure/machinery/landinglight/ds1/delayone{
+/obj/structure/machinery/landinglight/delayone{
 	dir = 8
 	},
 /turf/open/hybrisa/street/sidewalk/west,
@@ -39405,7 +39392,7 @@
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/outdoors/power_plant/transformers_north)
 "fbs" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "30"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -39852,11 +39839,8 @@
 /turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/electical_systems/substation1)
 "ffl" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "96";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "96"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "ffm" = (
@@ -41736,7 +41720,7 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/north_east_street_LZ)
 "fua" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "62"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -42796,9 +42780,11 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "fAV" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "leftengine_1"
+/obj/structure/shuttle/part/dropship_wy/transparent/left_engine{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "fAW" = (
 /obj/structure/largecrate/random/barrel/brown,
@@ -44247,7 +44233,7 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/north_caves/east)
 "fNP" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "75"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -46975,7 +46961,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/spaceport/starglider)
 "gid" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = 12;
 	pixel_y = -6
 	},
@@ -48226,9 +48212,8 @@
 /obj/item/stack/cable_coil/cut{
 	icon_state = "coil1"
 	},
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "33";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "33"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "gtu" = (
@@ -48485,11 +48470,8 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_street)
 "gvB" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "89";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "89"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "gvD" = (
@@ -50011,7 +49993,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/central_streets)
 "gHV" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -50409,7 +50391,7 @@
 /turf/open/floor/prison/sterile_white,
 /area/lv759/indoors/hospital/reception)
 "gKH" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "56"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -51370,9 +51352,9 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/indoors/wy_security/checkpoint_east)
 "gSm" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent2right,
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_cap,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "gSn" = (
 /obj/structure/machinery/light/double/blue,
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -51437,9 +51419,8 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/lv759/indoors/caves/comms_tower)
 "gSF" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "99"
-	},
+/obj/structure/shuttle/part/dropship_wy/nose_front_right,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "gSH" = (
 /obj/item/stack/sheet/wood{
@@ -51583,9 +51564,8 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/electical_systems/substation3)
 "gTz" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "95"
-	},
+/obj/structure/shuttle/part/dropship_wy/nose_front_left,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "gTD" = (
 /obj/effect/decal/hybrisa/road/roadmiddle{
@@ -51698,7 +51678,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/meridian/meridian_maintenance)
 "gUu" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -51748,11 +51728,8 @@
 /turf/open/floor/freezerfloor,
 /area/lv759/indoors/wy_research_complex/cafeteriakitchen)
 "gUZ" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "86";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "86"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "gVa" = (
@@ -53190,7 +53167,6 @@
 "hhd" = (
 /obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch{
 	pixel_y = 28;
-	explo_proof = 1;
 	pixel_x = -4
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -54930,7 +54906,7 @@
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/outdoors/colony_streets/central_streets)
 "huz" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "94"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -55352,12 +55328,12 @@
 /turf/open/floor/wood,
 /area/lv759/indoors/hospital/cmo_office)
 "hyA" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
 	icon_state = "zwing8";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "hyD" = (
 /obj/structure/platform/metal/strata/north,
@@ -58288,7 +58264,7 @@
 /area/lv759/outdoors/landing_zone_2)
 "hTY" = (
 /turf/closed/wall/hybrisa/rock,
-/area/space)
+/area/sky/level4)
 "hTZ" = (
 /obj/structure/barricade/handrail/hybrisa/handrail{
 	dir = 4
@@ -58685,7 +58661,7 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/lv759/indoors/power_plant/south_hallway)
 "hWZ" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "hXe" = (
@@ -58935,9 +58911,8 @@
 /turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/lv759/indoors/colonial_marshals/north_office)
 "hYZ" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "15"
-	},
+/obj/structure/shuttle/part/dropship_wy/lower_right_wall,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "hZa" = (
 /obj/structure/window/framed/hybrisa/colony/office,
@@ -60516,7 +60491,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/east_central_street_left)
 "ilr" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -12;
 	pixel_y = -6
 	},
@@ -62485,16 +62460,15 @@
 /turf/open/floor/prison/red/east,
 /area/lv759/indoors/wy_security/checkpoint_east)
 "izq" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "23";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "23"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "izu" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing2";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
+	icon_state = "zwing2"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "izx" = (
 /obj/structure/prop/almayer/missile_tube{
@@ -63363,9 +63337,8 @@
 /turf/open/floor/prison/whitegreen,
 /area/lv759/indoors/hospital/east_hallway)
 "iFP" = (
-/turf/closed/shuttle/ert{
-	icon_state = "rightengine_3";
-	opacity = 0
+/turf/closed/shuttle/ert/transparent{
+	icon_state = "rightengine_3"
 	},
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "iGc" = (
@@ -64485,9 +64458,12 @@
 /turf/closed/wall/hybrisa/colony,
 /area/lv759/indoors/mining_outpost/north)
 "iOU" = (
-/obj/structure/prop/hybrisa/airport/dropshipventleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_left_weapons{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "iPq" = (
 /obj/structure/machinery/light/small{
 	dir = 4
@@ -64936,7 +64912,7 @@
 /turf/open/floor/prison/whitegreen/northwest,
 /area/lv759/indoors/hospital/reception)
 "iSX" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "wy_rightengine"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -65623,9 +65599,7 @@
 /turf/open/floor/almayer/plate,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_cargo)
 "iYC" = (
-/obj/structure/machinery/colony_floodlight_switch{
-	explo_proof = 1
-	},
+/obj/structure/machinery/colony_floodlight_switch,
 /turf/closed/wall/hybrisa/colony/engineering/ribbed,
 /area/lv759/indoors/power_plant/geothermal_generators)
 "iYE" = (
@@ -65821,7 +65795,7 @@
 /area/lv759/indoors/apartment/eastrestroomsshower)
 "jae" = (
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -65849,7 +65823,7 @@
 /area/lv759/bunker/gonzo)
 "jah" = (
 /obj/structure/blocker/invisible_wall,
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "damaged_console1";
 	opacity = 0
 	},
@@ -66904,7 +66878,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_east_street_LZ)
 "jiL" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_y = -6
 	},
 /turf/open/floor/prison/darkredfull2,
@@ -67913,10 +67887,10 @@
 /turf/open/floor/bcarpet02/southeast,
 /area/lv759/bunker/gonzo)
 "jqQ" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing6";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
+	icon_state = "zwing6"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "jqV" = (
 /obj/structure/cable/white{
@@ -68544,11 +68518,8 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/central_caves)
 "jvj" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "98";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "98"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "jvl" = (
@@ -69496,9 +69467,8 @@
 /turf/open/floor/kutjevo/grey,
 /area/lv759/indoors/mining_outpost/northeast)
 "jCr" = (
-/turf/closed/shuttle/ert{
-	icon_state = "wy20"
-	},
+/obj/structure/shuttle/part/ert/front_left_wy,
+/turf/open/floor/plating,
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "jCv" = (
 /obj/structure/barricade/handrail/strata{
@@ -71402,11 +71372,8 @@
 /turf/open/hybrisa/street/sidewalk/west,
 /area/lv759/outdoors/colony_streets/north_street)
 "jSU" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "96";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "96"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "jSZ" = (
@@ -74063,7 +74030,7 @@
 /turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/lv759/indoors/apartment/westfoyer)
 "kon" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "64"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -74274,9 +74241,8 @@
 /turf/open/floor/hybrisa/tile/darkgrey_bigtile,
 /area/lv759/indoors/hospital/morgue)
 "kpl" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "32";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "32"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "kpn" = (
@@ -74532,9 +74498,11 @@
 /turf/open/floor/prison/darkyellow2,
 /area/lv759/indoors/caves/wy_research_complex_entrance)
 "kqI" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "99"
+/obj/structure/shuttle/part/dropship_wy/nose_front_right{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/spaceport/horizon_runner)
 "kqJ" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -75308,15 +75276,6 @@
 	},
 /turf/open/floor/hybrisa/metal/grated/north,
 /area/lv759/outdoors/colony_streets/central_streets)
-"kvx" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	dir = 4;
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "110";
-	name = "\improper WY-LWI StarGlider SG-200"
-	},
-/area/lv759/indoors/spaceport/starglider)
 "kvA" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment{
@@ -75804,11 +75763,8 @@
 /turf/open/floor/prison/cell_stripe/east,
 /area/lv759/indoors/wy_research_complex/vehicledeploymentbay)
 "kzd" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "103";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "103"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "kzf" = (
@@ -76745,9 +76701,12 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "kGV" = (
-/obj/structure/prop/hybrisa/airport/dropshipventright,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_right_weapons{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "kGX" = (
 /obj/structure/curtain/open/shower,
 /obj/effect/decal/strata_decals/grime/grime3{
@@ -77346,7 +77305,7 @@
 /area/lv759/indoors/wy_research_complex/weaponresearchlab)
 "kLw" = (
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -77720,7 +77679,7 @@
 /turf/open/floor/hybrisa/wood/redwood,
 /area/lv759/indoors/weyyu_office/floor)
 "kPe" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "wy2"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -79196,7 +79155,7 @@
 /turf/open/floor/hybrisa/carpet/carpetblack,
 /area/lv759/indoors/wy_research_complex/dormsbedroom)
 "kZZ" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/effect/decal/medical_decals{
@@ -79494,9 +79453,11 @@
 /turf/open/floor/corsat/squares,
 /area/lv759/indoors/wy_research_complex/vehicledeploymentbay)
 "lcg" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "95"
+/obj/structure/shuttle/part/dropship_wy/nose_front_left{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/spaceport/horizon_runner)
 "lck" = (
 /obj/effect/landmark/objective_landmark/medium,
@@ -80607,7 +80568,7 @@
 	pixel_y = 32
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -80679,7 +80640,7 @@
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "lmb" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "78"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -82254,7 +82215,7 @@
 /turf/closed/wall/hybrisa/colony,
 /area/lv759/outdoors/colony_streets/north_east_street)
 "lxp" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "lxr" = (
@@ -82555,9 +82516,8 @@
 /turf/open/floor/hybrisa/metal/zbrownfloor_full,
 /area/lv759/indoors/meridian/meridian_office)
 "lzm" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "8"
-	},
+/obj/structure/shuttle/part/dropship_wy/right_inner_wing_connector,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "lzs" = (
 /obj/effect/decal/hybrisa/road/lines1,
@@ -82843,10 +82803,8 @@
 /turf/open/floor/hybrisa/engineership/engineer_floor3,
 /area/lv759/indoors/derelict_ship)
 "lBd" = (
-/turf/closed/shuttle/dropship2/transparent{
-	icon = 'icons/turf/ert_shuttle.dmi';
-	icon_state = "wy27";
-	name = "wall"
+/turf/closed/shuttle/ert/transparent{
+	icon_state = "wy27"
 	},
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "lBe" = (
@@ -83338,11 +83296,8 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/wy_research_complex/vehicledeploymentbay)
 "lFl" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "110";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "110"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "lFB" = (
@@ -83427,7 +83382,7 @@
 /area/lv759/indoors/apartment/eastbedroomsstorage)
 "lFX" = (
 /turf/closed/wall/hybrisa/colony/reinforced/hull,
-/area/space)
+/area/sky/level4)
 "lFZ" = (
 /obj/effect/decal/hybrisa/dirt_2,
 /turf/open/hybrisa/street/sidewalk/south,
@@ -83683,10 +83638,10 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
 /area/lv759/outdoors/landing_zone_2/kmcc_hub_cargo_entrance_south)
 "lHm" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -6
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -85331,7 +85286,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/outdoors/colony_streets/central_streets)
 "lUd" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "73"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -85599,9 +85554,8 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/lv759/indoors/mining_outpost/northeast)
 "lWl" = (
-/turf/closed/shuttle/ert{
-	icon_state = "leftengine_2";
-	opacity = 0
+/turf/closed/shuttle/ert/transparent{
+	icon_state = "leftengine_2"
 	},
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "lWo" = (
@@ -86482,7 +86436,7 @@
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "mdv" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "19"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -87754,12 +87708,12 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/landing_zone_2)
 "mnv" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_right_wing{
 	icon_state = "zwing7";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "mnw" = (
 /obj/effect/decal/hybrisa/road/lines5,
@@ -88103,7 +88057,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "mpY" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "72"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -90864,7 +90818,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/cuppajoes)
 "mLd" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "24"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -91309,10 +91263,10 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_street)
 "mPd" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing8";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
+	icon_state = "zwing8"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "mPj" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -92350,7 +92304,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_street)
 "mYZ" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "62"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -92703,11 +92657,8 @@
 /turf/open/floor/prison/ramptop/east,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_cargo)
 "nbv" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "98";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "98"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "nbx" = (
@@ -92855,7 +92806,7 @@
 /turf/open/floor/almayer/plate,
 /area/lv759/indoors/weyyu_office)
 "nck" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -12;
 	pixel_y = -6
 	},
@@ -92863,7 +92814,7 @@
 /area/lv759/outdoors/landing_zone_1)
 "ncm" = (
 /obj/effect/decal/hybrisa/dirt,
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/floor/prison/ramptop,
@@ -92958,7 +92909,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "ndc" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/hybrisa/street/sidewalk/northeast,
@@ -93154,7 +93105,7 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/lv759/indoors/apartment/westbedrooms)
 "neM" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "67"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -93497,12 +93448,12 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/lv759/indoors/hospital/virology)
 "nhW" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_right_wing{
 	icon_state = "zwing6";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "nhZ" = (
 /obj/structure/bed/chair/office/light,
@@ -93629,7 +93580,7 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "niS" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -93656,9 +93607,8 @@
 /turf/open/floor/hybrisa/tile/supermartfloor1,
 /area/lv759/indoors/weymart)
 "njn" = (
-/turf/closed/shuttle/ert{
-	icon_state = "wy25"
-	},
+/obj/structure/shuttle/part/ert/front_right_wy,
+/turf/open/floor/plating,
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "njq" = (
 /obj/structure/closet/crate/freezer/cooler{
@@ -94771,9 +94721,8 @@
 /turf/open/floor/prison/darkbrown2/northeast,
 /area/lv759/indoors/recycling_plant/synthetic_storage)
 "nsg" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "26";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "26"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "nsh" = (
@@ -94982,8 +94931,8 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/outdoors/caves/north_west_caves_outdoors)
 "ntK" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/delaytwo,
+/obj/structure/machinery/landinglight/spoke{
 	pixel_y = 12;
 	pixel_x = -6
 	},
@@ -95480,7 +95429,7 @@
 	},
 /area/lv759/indoors/weymart)
 "nyq" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -96735,9 +96684,9 @@
 /turf/open/floor/prison/red/east,
 /area/lv759/indoors/colonial_marshals/press_room)
 "nHU" = (
-/obj/structure/prop/hybrisa/airport/dropshipventleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_left_weapons,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "nHV" = (
 /obj/structure/machinery/power/smes/buildable{
 	capacity = 1e+006;
@@ -97035,11 +96984,9 @@
 /turf/open/floor/corsat/officesquares,
 /area/lv759/indoors/recycling_plant_waste_disposal_incinerator)
 "nKB" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 1
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_top_right,
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "nKC" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/hybrisa/misc/fake/wire/blue{
@@ -98227,9 +98174,12 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "nSM" = (
-/obj/structure/prop/hybrisa/airport/dropshipventright,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_right_weapons{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "nST" = (
 /obj/structure/sign/safety/hazard,
 /obj/structure/sign/safety/high_voltage{
@@ -98392,7 +98342,7 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/west_caves)
 "nTR" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -99207,7 +99157,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_street)
 "nYW" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/southeast,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "nZa" = (
@@ -99618,7 +99568,7 @@
 /turf/open/floor/hybrisa/metal/grated/north,
 /area/lv759/indoors/garage_workshop)
 "oca" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/floor/prison/ramptop,
 /area/lv759/outdoors/landing_zone_2)
@@ -99684,7 +99634,7 @@
 /area/lv759/indoors/hospital/maintenance_south)
 "ocE" = (
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -100929,9 +100879,9 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/power_plant/workers_canteen_kitchen)
 "olW" = (
-/obj/structure/prop/hybrisa/airport/dropshipvent1left,
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_cap,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "olX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -101921,12 +101871,12 @@
 /turf/open/floor/almayer/silver/east,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "otP" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
 	icon_state = "zwing2";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "otQ" = (
 /obj/structure/disposalpipe/tagger{
@@ -103146,7 +103096,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/meridian/meridian_maintenance_east)
 "oEn" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "48"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -106681,9 +106631,8 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/central_streets)
 "pgp" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "22";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "22"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "pgr" = (
@@ -106947,7 +106896,7 @@
 /turf/open/floor/almayer/plating_striped/west,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "pit" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "75"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -107044,9 +106993,13 @@
 /turf/open/floor/hybrisa/tile/tilebeigecheckered,
 /area/lv759/indoors/apartment/westfoyer)
 "piP" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingright,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_right_wing{
+	icon_state = "zwing5";
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "piQ" = (
 /obj/structure/bed/chair{
 	dir = 8;
@@ -107443,10 +107396,8 @@
 /turf/open/floor/hybrisa/tile/asteroidfloor_bigtile,
 /area/lv759/indoors/mining_outpost/northeast)
 "pmv" = (
-/turf/closed/shuttle/ert{
-	icon_state = "leftengine_1";
-	opacity = 0
-	},
+/obj/structure/shuttle/part/ert/transparent/left_engine,
+/turf/open/floor/plating,
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "pmw" = (
 /obj/effect/decal/hybrisa/dirt,
@@ -108276,9 +108227,8 @@
 /turf/closed/wall/hybrisa/colony,
 /area/lv759/indoors/pizzaria)
 "psE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "29";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "29"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "psH" = (
@@ -108673,9 +108623,8 @@
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "pvO" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "2"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/left_outer_inner_wing,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "pvU" = (
 /turf/open/floor/prison,
@@ -110953,7 +110902,7 @@
 /turf/open/floor/prison/whitered/north,
 /area/lv759/indoors/hospital/medical_storage)
 "pNG" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "wy_leftengine"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -111265,7 +111214,7 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "pQa" = (
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -12
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -112367,7 +112316,7 @@
 /turf/open/gm/river/desert/shallow,
 /area/lv759/indoors/apartment/westentertainment)
 "pYG" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "83"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -113524,9 +113473,8 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/south_west_street)
 "qiE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "3"
-	},
+/obj/structure/shuttle/part/dropship_wy/left_outer_wing_connector,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "qiJ" = (
 /obj/structure/platform/stone/hybrisa/rockdark,
@@ -114279,9 +114227,9 @@
 /turf/open/floor/plating/engineer_ship,
 /area/lv759/indoors/derelict_ship)
 "qoO" = (
-/obj/structure/prop/hybrisa/airport/dropshipventright,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_right_weapons,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "qoY" = (
 /obj/structure/machinery/vending/cola{
 	density = 0;
@@ -114362,7 +114310,7 @@
 /area/lv759/indoors/spaceport/heavyequip)
 "qpF" = (
 /obj/structure/blocker/invisible_wall,
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "damaged_console3";
 	opacity = 0
 	},
@@ -115966,7 +115914,7 @@
 /turf/closed/wall/hybrisa/colony/hospital/ribbed,
 /area/lv759/bunker/checkpoint)
 "qCa" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/southwest,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "qCb" = (
@@ -116513,7 +116461,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/caves/sensory_tower)
 "qHI" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "69"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -116720,7 +116668,7 @@
 /turf/open/floor/hybrisa/tile/tilebeige,
 /area/lv759/indoors/jacks_surplus)
 "qIK" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/effect/decal/medical_decals{
@@ -116972,7 +116920,7 @@
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/weymart)
 "qKl" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/northeast,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "qKr" = (
@@ -117339,7 +117287,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/caves/wy_research_complex_entrance)
 "qMQ" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "69"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -117838,7 +117786,7 @@
 /turf/open/floor/prison/ramptop,
 /area/lv759/indoors/colonial_marshals/garage)
 "qQE" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "zwing0"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -118502,7 +118450,7 @@
 /turf/open/hybrisa/street/sidewalk/west,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "qVH" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "36"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -118891,9 +118839,8 @@
 	light_power = 5;
 	light_range = 6
 	},
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "26";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "26"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "qZq" = (
@@ -119112,7 +119059,7 @@
 /turf/open/floor/almayer/black/northeast,
 /area/lv759/indoors/wy_research_complex/head_research_office)
 "raT" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/hybrisa/street/sidewalk/southeast,
 /area/lv759/outdoors/landing_zone_2)
@@ -120744,9 +120691,13 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/wy_research_complex/vehicledeploymentbay)
 "roc" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_left_wing{
+	icon_state = "zwing1";
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "roe" = (
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
 	dir = 4
@@ -121414,9 +121365,9 @@
 /area/lv759/indoors/caves/south_east_caves)
 "rui" = (
 /obj/item/stack/sheet/metal,
-/obj/structure/prop/hybrisa/airport/dropshipvent2right,
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_right_cap,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "ruo" = (
 /obj/structure/toilet,
 /obj/structure/machinery/light/small{
@@ -122232,8 +122183,7 @@
 /area/lv759/outdoors/colony_streets/south_east_street)
 "rzF" = (
 /obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch{
-	pixel_y = 28;
-	explo_proof = 1
+	pixel_y = 28
 	},
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/electical_systems/substation1)
@@ -122285,9 +122235,8 @@
 /obj/item/stack/cable_coil/cut{
 	icon_state = "coil2"
 	},
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "27";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "27"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "rzY" = (
@@ -123300,12 +123249,9 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/lv759/indoors/colonial_marshals/prisoners_recreation_area)
 "rGM" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	dir = 1;
-	icon = 'icons/turf/dropship4.dmi';
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
 	icon_state = "110";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	dir = 1
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "rGO" = (
@@ -123321,9 +123267,12 @@
 /turf/open/floor/hybrisa/metal/bluemetalfull,
 /area/lv759/indoors/spaceport/flight_control_room)
 "rGT" = (
-/obj/structure/prop/hybrisa/airport/dropshipventleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/outer_left_weapons{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "rGY" = (
 /obj/structure/prop/invuln/overhead_pipe{
 	color = "#a6aeab"
@@ -123525,7 +123474,7 @@
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "rIB" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /turf/open/hybrisa/street/sidewalk/east,
@@ -124171,7 +124120,7 @@
 /turf/open/floor/hybrisa/wood/darkerwood,
 /area/lv759/indoors/colonial_marshals/north_office)
 "rNc" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "94"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -124488,10 +124437,7 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "rPf" = (
-/turf/closed/shuttle{
-	dir = 1;
-	icon_state = "pwall"
-	},
+/turf/closed/cordon,
 /area/lv759/oob)
 "rPi" = (
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall{
@@ -124577,9 +124523,8 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "rPD" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "28";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "28"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "rPF" = (
@@ -124814,12 +124759,13 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 4
-	},
 /obj/effect/decal/hybrisa/dirt,
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_center{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "rRC" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/drinks/sillycup{
@@ -125767,7 +125713,7 @@
 /turf/open/floor/prison/whitegreen/north,
 /area/lv759/indoors/hospital/cryo_room)
 "rYL" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "brokendropshipconsole1";
 	opacity = 0
 	},
@@ -126938,7 +126884,7 @@
 /turf/open/floor/prison/red/east,
 /area/lv759/indoors/wy_research_complex/reception)
 "shi" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -127012,7 +126958,7 @@
 /area/lv759/indoors/wy_research_complex/southeastexit)
 "shT" = (
 /obj/structure/blocker/invisible_wall,
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "damaged_console2";
 	opacity = 0
 	},
@@ -127190,7 +127136,7 @@
 /turf/open/floor/hybrisa/carpet/carpetfadedred,
 /area/lv759/indoors/apartment/westentertainment)
 "sjm" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "47"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -127474,11 +127420,8 @@
 /turf/open/hybrisa/street/roadlines4,
 /area/lv759/outdoors/colony_streets/south_west_street)
 "sly" = (
-/turf/closed/shuttle{
-	dir = 1;
-	icon_state = "pwall"
-	},
-/area/sky)
+/turf/closed/cordon,
+/area/space)
 "slz" = (
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
@@ -129794,9 +129737,8 @@
 /turf/open/floor/plating/platingdmg3,
 /area/lv759/indoors/caves/north_caves)
 "sCE" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "5"
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/right_inner_bottom_wing,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "sCF" = (
 /obj/effect/decal/warning_stripes{
@@ -129901,9 +129843,8 @@
 /turf/open/floor/plating/platingdmg3/west,
 /area/lv759/indoors/mining_outpost/processing)
 "sDH" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "33";
-	opacity = 0
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "33"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "sDJ" = (
@@ -130557,7 +130498,6 @@
 /obj/item/stack/rods{
 	amount = 15
 	},
-/obj/structure/prop/hybrisa/airport/dropshipvent1left,
 /obj/item/stack/cable_coil/green{
 	icon_state = "coil1"
 	},
@@ -130568,8 +130508,9 @@
 	color = "#5d524b";
 	alpha = 155
 	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_cap,
 /turf/open/floor/plating,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "sJF" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -131572,10 +131513,8 @@
 /turf/open/floor/almayer/blackfull/west,
 /area/lv759/indoors/wy_research_complex/janitor)
 "sRd" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "16";
-	opacity = 0
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/engine_left_exhaust,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "sRj" = (
 /obj/structure/machinery/door/airlock/hybrisa/generic/autoname,
@@ -131802,7 +131741,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/hospital/emergency_room)
 "sTw" = (
-/obj/structure/machinery/landinglight/ds2/delaythree,
+/obj/structure/machinery/landinglight/delaythree,
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecaldir";
 	color = "#d3d3d3"
@@ -132109,7 +132048,7 @@
 /turf/open/floor/hybrisa/tile/beige_bigtile,
 /area/lv759/indoors/power_plant/workers_canteen)
 "sVO" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 1
 	},
 /obj/effect/decal/medical_decals{
@@ -132896,7 +132835,7 @@
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/lv759/indoors/colonial_marshals/prisoners_recreation_area)
 "tbI" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "brokendropshipconsole3";
 	opacity = 0
 	},
@@ -133051,12 +132990,12 @@
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/east_central_street)
 "tcR" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
 	icon_state = "zwing4";
-	opacity = 0;
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "tcV" = (
 /obj/structure/largecrate/empty,
@@ -134051,10 +133990,10 @@
 /turf/open/hybrisa/street/roadlines4,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "tjr" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing4";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/middle_left_wing{
+	icon_state = "zwing4"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "tjv" = (
 /obj/structure/platform/metal/almayer/north,
@@ -134469,7 +134408,7 @@
 /area/lv759/outdoors/colony_streets/east_central_street)
 "tmf" = (
 /turf/open_space,
-/area/space)
+/area/sky/level4)
 "tmq" = (
 /obj/structure/machinery/vending/dinnerware{
 	pixel_x = 5
@@ -134661,7 +134600,7 @@
 /turf/open/floor/hybrisa/carpet/carpetgreendeco,
 /area/lv759/indoors/jacks_surplus)
 "tnx" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "48"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -134711,7 +134650,7 @@
 /turf/open/floor/hybrisa/metal/red_warning_floor,
 /area/lv759/indoors/mining_outpost/vehicledeployment)
 "tnS" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "37"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -135116,7 +135055,7 @@
 /turf/open/floor/hybrisa/tile/tilewhitecheckered,
 /area/lv759/indoors/apartment/westentertainment)
 "tqN" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /turf/open/hybrisa/street/sidewalk/southwest,
 /area/lv759/outdoors/landing_zone_2)
 "tqO" = (
@@ -135560,7 +135499,7 @@
 /turf/open/floor/hybrisa/metal/grated,
 /area/lv759/outdoors/colony_streets/central_streets)
 "tun" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "53"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -135801,7 +135740,7 @@
 /turf/open/floor/hybrisa/misc/spaceport1,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "tvS" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 1
 	},
 /turf/open/floor/prison/ramptop,
@@ -136353,9 +136292,8 @@
 /turf/open/floor/hybrisa/tile/cementflat,
 /area/lv759/indoors/landing_zone_2/kmcc_hub_lounge_hallway)
 "tzK" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "7"
-	},
+/obj/structure/shuttle/part/dropship_wy/left_inner_wing_connector,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "tzP" = (
 /obj/effect/decal/hybrisa/road/road_edge{
@@ -137702,9 +137640,11 @@
 /turf/open/floor/hybrisa/metal/stripe_red/north,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "tLT" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
-	icon_state = "rightengine_1"
+/obj/structure/shuttle/part/dropship_wy/transparent/right_engine{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "tLX" = (
 /turf/closed/wall/hybrisa/colony,
@@ -137906,11 +137846,8 @@
 /turf/open/floor/prison/blue/northeast,
 /area/lv759/indoors/power_plant/telecomms)
 "tNV" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "86";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "86"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "tNW" = (
@@ -138336,7 +138273,7 @@
 /turf/open/floor/prison/red/east,
 /area/lv759/indoors/colonial_marshals/reception)
 "tRr" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /obj/effect/decal/hybrisa/dirt,
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/landing_zone_2)
@@ -139250,7 +139187,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/mining_outpost/east_deploymentbay)
 "tYi" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -139510,7 +139447,7 @@
 /turf/closed/wall/hybrisa/colony/engineering,
 /area/lv759/indoors/power_plant/workers_canteen_kitchen)
 "uaC" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 4
 	},
 /obj/effect/decal/medical_decals{
@@ -140019,7 +139956,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/meridian/meridian_factory)
 "ufs" = (
-/obj/structure/machinery/landinglight/ds2/delaythree,
+/obj/structure/machinery/landinglight/delaythree,
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecaldir";
 	color = "#d3d3d3"
@@ -141297,11 +141234,8 @@
 /turf/closed/wall/hybrisa/rock,
 /area/lv759/indoors/caves/south_west_caves)
 "upc" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "97";
-	name = "\improper WY-LWI StarGlider SG-200"
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
+	icon_state = "97"
 	},
 /area/lv759/indoors/spaceport/starglider)
 "upd" = (
@@ -141710,12 +141644,13 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 1
-	},
 /obj/effect/decal/hybrisa/dirt,
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_top_right{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "usr" = (
 /obj/effect/decal/hybrisa/road/lines5{
 	pixel_y = 5
@@ -143042,7 +142977,7 @@
 /turf/open/floor/prison/bright_clean/southwest,
 /area/lv759/indoors/power_plant)
 "uCq" = (
-/obj/structure/machinery/landinglight/ds2/spoke,
+/obj/structure/machinery/landinglight/spoke,
 /turf/open/floor/strata/orange_edge/northwest,
 /area/lv759/indoors/wy_research_complex/hangarbay)
 "uCr" = (
@@ -143670,12 +143605,9 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "uGF" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI StarGlider SG-200, a product of the collaborative ingenuity between Weyland Yutani and Lunnar-Welsun Industries, is a small dropship is designed for short-range commercial transport.";
-	dir = 1;
-	icon = 'icons/turf/dropship4.dmi';
+/turf/closed/shuttle/dropship_wy/StarGlider/transparent{
 	icon_state = "110";
-	name = "\improper WY-LWI StarGlider SG-200"
+	dir = 1
 	},
 /area/lv759/indoors/spaceport/starglider)
 "uGH" = (
@@ -143811,10 +143743,8 @@
 /turf/open/floor/prison/darkbrown2/north,
 /area/lv759/indoors/power_plant)
 "uHl" = (
-/turf/closed/shuttle/ert{
-	icon_state = "rightengine_1";
-	opacity = 0
-	},
+/obj/structure/shuttle/part/ert/transparent/right_engine,
+/turf/open/floor/plating,
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "uHn" = (
 /obj/structure/closet/secure_closet,
@@ -144128,11 +144058,9 @@
 /turf/open/auto_turf/hybrisa_auto_turf/layer2,
 /area/lv759/indoors/caves/north_caves/east)
 "uIY" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone{
-	dir = 4
-	},
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_center,
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "uJa" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -144658,7 +144586,6 @@
 	layer = 2.5
 	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/dropshipside/ds2{
-	dir = 1;
 	id = "sh_dropship2";
 	name = "\improper WY-LWI StarGlider SG-200 airlock"
 	},
@@ -145569,7 +145496,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/outdoors/landing_zone_1)
 "uSL" = (
-/obj/structure/machinery/landinglight/ds2/delaythree{
+/obj/structure/machinery/landinglight/delaythree{
 	dir = 8
 	},
 /obj/effect/decal/medical_decals{
@@ -146878,7 +146805,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/hospital/break_room)
 "vdt" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "68"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -147246,9 +147173,11 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/hospital/icu)
 "vhj" = (
-/obj/structure/prop/hybrisa/airport/dropshipwingleft,
+/obj/structure/shuttle/part/dropship_wy/transparent/upper_left_wing{
+	icon_state = "zwing1"
+	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "vhk" = (
 /obj/structure/window/framed/hybrisa/marshalls/cell,
 /turf/open/floor/plating,
@@ -149329,9 +149258,8 @@
 /turf/open/floor/hybrisa/tile/cuppajoesfloor,
 /area/lv759/bunker/gonzo)
 "vwT" = (
-/turf/closed/shuttle/ert{
-	icon_state = "leftengine_3";
-	opacity = 0
+/turf/closed/shuttle/ert/transparent{
+	icon_state = "leftengine_3"
 	},
 /area/lv759/indoors/wy_research_complex/hangarbayshuttle)
 "vwV" = (
@@ -150826,7 +150754,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "vIR" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner{
 	icon_state = "92"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -151502,7 +151430,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "vNK" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "31"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -151803,7 +151731,7 @@
 	pixel_y = -1
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -152767,7 +152695,7 @@
 /area/lv759/indoors/caves/west_caves)
 "vXN" = (
 /obj/structure/closet/crate/medical,
-/obj/item/pamphlet/skill/medical,
+/obj/item/pamphlet/upgradeable/medical,
 /obj/item/bodybag,
 /obj/item/bodybag,
 /obj/item/bodybag,
@@ -154072,9 +154000,8 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "whs" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "46"
-	},
+/obj/structure/shuttle/part/dropship_wy/lower_left_wall,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "whD" = (
 /obj/structure/closet,
@@ -154860,7 +154787,7 @@
 	},
 /obj/structure/blocker/forcefield/vehicles,
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -155016,7 +154943,7 @@
 	explo_proof = 1
 	},
 /obj/structure/blocker/invisible_wall,
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "79";
 	opacity = 0
 	},
@@ -155100,10 +155027,10 @@
 /turf/open/floor/prison/darkredfull2,
 /area/lv759/outdoors/landing_zone_1)
 "wpz" = (
-/obj/structure/machinery/landinglight/ds1{
+/obj/structure/machinery/landinglight{
 	dir = 4
 	},
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/spoke{
 	pixel_x = -12
 	},
 /obj/effect/decal/hybrisa/dirt,
@@ -155817,8 +155744,8 @@
 /turf/open/hybrisa/street/sidewalk/northwest,
 /area/lv759/outdoors/colony_streets/south_east_street)
 "wvJ" = (
-/obj/structure/machinery/landinglight/ds1/delaytwo,
-/obj/structure/machinery/landinglight/ds2/spoke{
+/obj/structure/machinery/landinglight/delaytwo,
+/obj/structure/machinery/landinglight/spoke{
 	pixel_y = 12;
 	pixel_x = 6
 	},
@@ -156363,7 +156290,7 @@
 /turf/open/floor/corsat/officetiles,
 /area/lv759/indoors/wy_security/checkpoint_central)
 "wAO" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "73"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -156716,11 +156643,8 @@
 /turf/open/hybrisa/street/cement1,
 /area/lv759/outdoors/colony_streets/north_east_street_LZ)
 "wDk" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "103";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "103"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "wDl" = (
@@ -156861,7 +156785,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/electical_systems/substation1)
 "wEg" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "82"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -156959,10 +156883,10 @@
 /turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/wy_security/checkpoint_east)
 "wEG" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
-	icon_state = "zwing3";
-	opacity = 0
+/obj/structure/shuttle/part/dropship_wy/transparent/lower_left_wing{
+	icon_state = "zwing3"
 	},
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/starglider)
 "wEI" = (
 /obj/structure/machinery/colony_floodlight/street{
@@ -158892,9 +158816,9 @@
 /turf/open/hybrisa/street/sidewalk/northeast,
 /area/lv759/outdoors/landing_zone_2)
 "wUS" = (
-/obj/structure/prop/hybrisa/airport/dropshipnosecone,
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_top_left,
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_1)
+/area/lv759/indoors/spaceport/starglider)
 "wUY" = (
 /obj/effect/decal/hybrisa/road/road_edge{
 	icon_state = "road_edge_decal3"
@@ -159522,7 +159446,7 @@
 	icon_state = "NW-out"
 	},
 /obj/structure/sign/safety/manualopenclose{
-	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the the card reader being scraped up. Poor bastards.";
+	desc = "The now broken door access console for these podlocks. Seems like some poor bastard was frantically trying to slide their card due to the card reader being scraped up. Poor bastards.";
 	icon = 'icons/obj/structures/machinery/monitors.dmi';
 	icon_state = "auth_off";
 	name = "Access console";
@@ -163051,7 +162975,7 @@
 /area/lv759/indoors/caves/south_caves)
 "xzD" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/structure/machinery/landinglight/ds1/delaytwo,
+/obj/structure/machinery/landinglight/delaytwo,
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/landing_zone_2)
 "xzL" = (
@@ -163208,11 +163132,8 @@
 /turf/open/floor/hybrisa/carpet/rug_colorable/blue/west,
 /area/lv759/indoors/apartment/westbedrooms)
 "xAy" = (
-/turf/closed/shuttle/dropship2/transparent{
-	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
-	icon = 'icons/turf/dropship4.dmi';
-	icon_state = "89";
-	name = "\improper WY-LWI Horizon Runner HR-150"
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
+	icon_state = "89"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "xAz" = (
@@ -164035,7 +163956,7 @@
 /turf/open/hybrisa/dropship/dropship4,
 /area/lv759/indoors/spaceport/starglider)
 "xGY" = (
-/turf/closed/shuttle/dropship4/WY/HorizonRunner{
+/turf/closed/shuttle/dropship_wy/HorizonRunner/transparent{
 	icon_state = "leftengine_3"
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
@@ -164364,7 +164285,7 @@
 /turf/open/floor/hybrisa/carpet/carpetbeige,
 /area/lv759/indoors/meridian/meridian_office)
 "xJY" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/shuttle/dropship_wy/StarGlider{
 	icon_state = "64"
 	},
 /area/lv759/indoors/spaceport/starglider)
@@ -167695,9 +167616,12 @@
 	pixel_x = -9;
 	pixel_y = 20
 	},
-/obj/structure/prop/hybrisa/airport/dropshipnosecone,
+/obj/structure/shuttle/part/dropship_wy/transparent/nose_top_left{
+	name = "\improper WY-LWI Horizon Runner HR-150";
+	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport."
+	},
 /turf/open/floor/prison/ramptop/north,
-/area/lv759/indoors/spaceport/docking_bay_2)
+/area/lv759/indoors/spaceport/horizon_runner)
 "yjN" = (
 /obj/item/weapon/broken_bottle{
 	pixel_x = -3;
@@ -171890,7 +171814,7 @@ nHU
 pit
 fbs
 mLd
-eGr
+dNo
 rFG
 mpY
 neM
@@ -173402,7 +173326,7 @@ qoO
 pYG
 vNK
 bjm
-kvx
+uGF
 cbI
 wAO
 qMQ
@@ -178427,7 +178351,7 @@ lUd
 qHI
 qHI
 kon
-igf
+apz
 rGM
 lmb
 cGG
@@ -281484,259 +281408,259 @@ sly
 "}
 
 (1,1,3) = {"
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
 "}
 (2,1,3) = {"
-bfZ
+sly
 cBG
 cBG
 cBG
@@ -281985,10 +281909,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (3,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -282237,10 +282161,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (4,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -282489,10 +282413,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (5,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -282741,10 +282665,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (6,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -282993,10 +282917,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (7,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -283245,10 +283169,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (8,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -283497,10 +283421,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (9,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -283749,10 +283673,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (10,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -284001,10 +283925,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (11,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -284253,10 +284177,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (12,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -284505,10 +284429,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (13,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -284757,10 +284681,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (14,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -285009,10 +284933,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (15,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -285261,10 +285185,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (16,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -285513,10 +285437,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (17,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -285765,10 +285689,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (18,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -286017,10 +285941,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (19,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -286269,10 +286193,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (20,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -286521,10 +286445,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (21,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -286773,10 +286697,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (22,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -287025,10 +286949,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (23,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -287277,10 +287201,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (24,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -287529,10 +287453,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (25,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -287781,10 +287705,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (26,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -288033,10 +287957,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (27,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -288285,10 +288209,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (28,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -288537,10 +288461,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (29,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -288789,10 +288713,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (30,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -289041,10 +288965,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (31,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -289293,10 +289217,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (32,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -289545,10 +289469,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (33,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -289797,10 +289721,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (34,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -290049,10 +289973,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (35,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -290301,10 +290225,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (36,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -290553,10 +290477,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (37,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -290805,10 +290729,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (38,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -291057,10 +290981,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (39,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -291309,10 +291233,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (40,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -291561,10 +291485,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (41,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -291813,10 +291737,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (42,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -292065,10 +291989,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (43,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -292317,10 +292241,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (44,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -292569,10 +292493,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (45,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -292821,10 +292745,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (46,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -293073,10 +292997,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (47,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -293325,10 +293249,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (48,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -293577,10 +293501,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (49,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -293829,10 +293753,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (50,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -294081,10 +294005,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (51,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -294333,10 +294257,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (52,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -294585,10 +294509,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (53,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -294837,10 +294761,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (54,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -295089,10 +295013,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (55,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -295341,10 +295265,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (56,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -295593,10 +295517,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (57,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -295845,10 +295769,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (58,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -296097,10 +296021,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (59,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -296349,10 +296273,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (60,1,3) = {"
-bfZ
+sly
 cBG
 tmf
 tmf
@@ -296601,10 +296525,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (61,1,3) = {"
-bfZ
+sly
 cBG
 cBG
 cBG
@@ -296853,10 +296777,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (62,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -297105,10 +297029,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (63,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -297357,10 +297281,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (64,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -297609,10 +297533,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (65,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -297861,10 +297785,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (66,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -298113,10 +298037,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (67,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -298365,10 +298289,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (68,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -298617,10 +298541,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (69,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -298869,10 +298793,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (70,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -299121,10 +299045,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (71,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -299373,10 +299297,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (72,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -299625,10 +299549,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (73,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -299877,10 +299801,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (74,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -300129,10 +300053,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (75,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -300381,10 +300305,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (76,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -300633,10 +300557,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (77,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -300885,10 +300809,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (78,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -301137,10 +301061,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (79,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -301389,10 +301313,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (80,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -301641,10 +301565,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (81,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -301893,10 +301817,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (82,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -302145,10 +302069,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (83,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -302397,10 +302321,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (84,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -302649,10 +302573,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (85,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -302901,10 +302825,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (86,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -303153,10 +303077,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (87,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -303405,10 +303329,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (88,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -303657,10 +303581,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (89,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -303909,10 +303833,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (90,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -304161,10 +304085,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (91,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -304413,10 +304337,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (92,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -304665,10 +304589,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (93,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -304917,10 +304841,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (94,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -305169,10 +305093,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (95,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -305421,10 +305345,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (96,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -305673,10 +305597,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (97,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -305925,10 +305849,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (98,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -306177,10 +306101,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (99,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -306429,10 +306353,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (100,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -306681,10 +306605,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (101,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -306933,10 +306857,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (102,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -307185,10 +307109,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (103,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -307437,10 +307361,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (104,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -307689,10 +307613,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (105,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -307941,10 +307865,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (106,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -308193,10 +308117,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (107,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -308445,10 +308369,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (108,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -308697,10 +308621,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (109,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -308949,10 +308873,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (110,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -309201,10 +309125,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (111,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -309453,10 +309377,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (112,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -309705,10 +309629,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (113,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -309957,10 +309881,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (114,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -310209,10 +310133,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (115,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -310461,10 +310385,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (116,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -310713,10 +310637,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (117,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -310965,10 +310889,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (118,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -311217,10 +311141,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (119,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -311469,10 +311393,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (120,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -311721,10 +311645,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (121,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -311973,10 +311897,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (122,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -312225,10 +312149,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (123,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -312477,10 +312401,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (124,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -312729,10 +312653,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (125,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -312981,10 +312905,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (126,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -313233,10 +313157,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (127,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -313485,10 +313409,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (128,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -313737,10 +313661,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (129,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -313989,10 +313913,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (130,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -314241,10 +314165,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (131,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -314493,10 +314417,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (132,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -314745,10 +314669,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (133,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -314997,10 +314921,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (134,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -315249,10 +315173,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (135,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -315501,10 +315425,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (136,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -315753,10 +315677,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (137,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -316005,10 +315929,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (138,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -316257,10 +316181,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (139,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -316509,10 +316433,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (140,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -316761,10 +316685,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (141,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -317013,10 +316937,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (142,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -317265,10 +317189,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (143,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -317517,10 +317441,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (144,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -317769,10 +317693,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (145,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -318021,10 +317945,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (146,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -318273,10 +318197,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (147,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -318525,10 +318449,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (148,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -318777,10 +318701,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (149,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -319029,10 +318953,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (150,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -319281,10 +319205,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (151,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -319533,10 +319457,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (152,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -319785,10 +319709,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (153,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -320037,10 +319961,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (154,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -320289,10 +320213,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (155,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -320541,10 +320465,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (156,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -320793,10 +320717,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (157,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -321045,10 +320969,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (158,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -321297,10 +321221,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (159,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -321549,10 +321473,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (160,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -321801,10 +321725,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (161,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -322053,10 +321977,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (162,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -322305,10 +322229,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (163,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -322557,10 +322481,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (164,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -322809,10 +322733,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (165,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -323061,10 +322985,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (166,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -323313,10 +323237,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (167,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -323565,10 +323489,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (168,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -323817,10 +323741,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (169,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -324069,10 +323993,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (170,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -324321,10 +324245,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (171,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -324573,10 +324497,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (172,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -324825,10 +324749,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (173,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -325077,10 +325001,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (174,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -325329,10 +325253,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (175,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -325581,10 +325505,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (176,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -325833,10 +325757,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (177,1,3) = {"
-bfZ
+sly
 hTY
 hTY
 hTY
@@ -326085,10 +326009,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (178,1,3) = {"
-bfZ
+sly
 lFX
 lFX
 lFX
@@ -326337,10 +326261,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (179,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -326589,10 +326513,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (180,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -326841,10 +326765,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (181,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -327093,10 +327017,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (182,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -327345,10 +327269,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (183,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -327597,10 +327521,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (184,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -327849,10 +327773,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (185,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -328101,10 +328025,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (186,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -328353,10 +328277,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (187,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -328605,10 +328529,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (188,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -328857,10 +328781,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (189,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -329109,10 +329033,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (190,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -329361,10 +329285,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (191,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -329613,10 +329537,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (192,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -329865,10 +329789,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (193,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -330117,10 +330041,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (194,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -330369,10 +330293,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (195,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -330621,10 +330545,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (196,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -330873,10 +330797,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (197,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -331125,10 +331049,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (198,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -331377,10 +331301,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (199,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -331629,10 +331553,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (200,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -331881,10 +331805,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (201,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -332133,10 +332057,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (202,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -332385,10 +332309,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (203,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -332637,10 +332561,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (204,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -332889,10 +332813,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (205,1,3) = {"
-bfZ
+sly
 lFX
 lFX
 tmf
@@ -333141,10 +333065,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (206,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -333393,10 +333317,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (207,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -333645,10 +333569,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (208,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -333897,10 +333821,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (209,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -334149,10 +334073,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (210,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -334401,10 +334325,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (211,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -334653,10 +334577,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (212,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -334905,10 +334829,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (213,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -335157,10 +335081,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (214,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -335409,10 +335333,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (215,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -335661,10 +335585,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (216,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -335913,10 +335837,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (217,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -336165,10 +336089,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (218,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -336417,10 +336341,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (219,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -336669,10 +336593,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (220,1,3) = {"
-bfZ
+sly
 lFX
 lFX
 tmf
@@ -336921,10 +336845,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (221,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -337173,10 +337097,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (222,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -337425,10 +337349,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (223,1,3) = {"
-bfZ
+sly
 lFX
 tmf
 tmf
@@ -337677,10 +337601,10 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (224,1,3) = {"
-bfZ
+sly
 lFX
 lFX
 lFX
@@ -337929,257 +337853,257 @@ hTY
 hTY
 hTY
 hTY
-bfZ
+sly
 "}
 (225,1,3) = {"
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
-bfZ
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
+sly
 "}
