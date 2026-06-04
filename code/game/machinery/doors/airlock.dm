@@ -395,6 +395,8 @@ GLOBAL_LIST_INIT(airlock_wire_descriptions, flatten_numeric_alist(alist(
 		return FALSE
 	if(hasShocked)
 		return FALSE //Already shocked someone recently?
+	if(user.mob_size > MOB_SIZE_BIG)
+		return FALSE
 	if(..())
 		hasShocked = 1
 		sleep(10)
