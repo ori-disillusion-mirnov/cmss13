@@ -616,6 +616,10 @@ GLOBAL_LIST_INIT(frozen_items, list(SQUAD_MARINE_1 = list(), SQUAD_MARINE_2 = li
 	playsound(src, 'sound/items/zip.ogg', 30)
 	SEND_SIGNAL(src, COMSIG_CRYOPOD_GO_OUT)
 
+/obj/structure/machinery/cryopod/joe/seegson/despawn_occupant()
+	. = ..()
+	icon_state = "working_joe_storage_empty"
+
 /obj/structure/machinery/cryopod/joe/seegson/alt
 	icon_state = "working_joe_storage_empty_alt"
 	unslashable = TRUE
@@ -656,6 +660,10 @@ GLOBAL_LIST_INIT(frozen_items, list(SQUAD_MARINE_1 = list(), SQUAD_MARINE_2 = li
 	set_light(0)
 	playsound(src, 'sound/items/zip.ogg', 30)
 	SEND_SIGNAL(src, COMSIG_CRYOPOD_GO_OUT)
+
+/obj/structure/machinery/cryopod/joe/seegson/alt/despawn_occupant()
+	. = ..()
+	icon_state = "working_joe_storage_empty_alt"
 
 /obj/structure/machinery/cryopod/joe/weyland
 	icon = 'icons/obj/structures/machinery/working_joe_storage.dmi'
@@ -700,6 +708,10 @@ GLOBAL_LIST_INIT(frozen_items, list(SQUAD_MARINE_1 = list(), SQUAD_MARINE_2 = li
 	playsound(src, 'sound/items/zip.ogg', 30)
 	SEND_SIGNAL(src, COMSIG_CRYOPOD_GO_OUT)
 
+/obj/structure/machinery/cryopod/joe/weyland/despawn_occupant()
+	. = ..()
+	icon_state = "working_joe_storage_empty_dark"
+
 /obj/structure/machinery/cryopod/joe/weyland/alt
 	icon_state = "working_joe_storage_alt_empty_dark"
 	unslashable = TRUE
@@ -740,6 +752,10 @@ GLOBAL_LIST_INIT(frozen_items, list(SQUAD_MARINE_1 = list(), SQUAD_MARINE_2 = li
 	set_light(0)
 	playsound(src, 'sound/items/zip.ogg', 30)
 	SEND_SIGNAL(src, COMSIG_CRYOPOD_GO_OUT)
+
+/obj/structure/machinery/cryopod/joe/weyland/alt/despawn_occupant()
+	. = ..()
+	icon_state = "working_joe_storage_alt_empty_dark"
 
 /obj/structure/machinery/cryopod/tutorial
 	silent_exit = TRUE
